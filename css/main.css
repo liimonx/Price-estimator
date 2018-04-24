@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: grey;
+}
+
+.demo__container {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.demo__container .demo__details {
+  width: 200px;
+  height: 150px;
+  background: #ffffff;
+  margin-left: 50px;
+}
+
+.demo__container .demo {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1457972657980-4c9fddebec8d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=845f0f26f237ae4a61a97d084b5d600f&auto=format&fit=crop&w=1500&q=80");
+  background-size: cover;
+  background-position: 0 0;
+}
+
+.demo__container .demo input[name="height"] {
+  top: 45%;
+  left: -40%;
+  width: 450px;
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+.demo__container .demo input[name="width"] {
+  bottom: 0;
+  right: 2%;
+  width: 450px;
+  position: absolute;
+}
+
+/*# sourceMappingURL=main.css.map */
